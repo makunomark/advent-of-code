@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/makunomark/aoc2023/handler"
 
 func main() {
-	fmt.Println("Hello Advent Of Code 2023")
+	handler.DayOne()
 }
