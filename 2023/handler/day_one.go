@@ -7,7 +7,7 @@ import (
 )
 
 func DayOne() {
-	data, err := ReadFile("day_one.mock.txt")
+	data, err := ReadFile("day_one.txt")
 	if err != nil {
 		fmt.Println(err)
 		return
